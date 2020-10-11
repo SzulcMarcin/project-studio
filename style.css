@@ -22,6 +22,7 @@ body{
     width: 100%;
     height: 100%;
     background-color: rgba(0, 0, 0, .6);
+    z-index: -1;
 }
 
 .orange-color{
@@ -30,11 +31,14 @@ body{
 
 /* button */
 button:focus {
-    outline: transparent;
+    outline: #fff;
 }
 
 #hamburger {
-    transform: scale(.7);
+    transform: scale(.5);
+}
+#hambureger button:focus{
+    outline: tomato;
 }
 
 .hamburglar {
@@ -44,7 +48,7 @@ button:focus {
     
     position: absolute;
     right: 10px;
-    top: -15px;
+    top: -10px;
     
     display: block;
     width: 68px;
@@ -662,4 +666,35 @@ button:focus {
       width: 0;
       left: 36px;
     }
+  }
+
+  /* nawigacja */
+
+  .navbar-brand {
+      font-size: 2.2rem;
+      font-weight: bold;
+  }
+  nav .navbar-nav, nav .fa-bars{
+      font-size: 1.8rem;
+      text-transform: uppercase;
+  }
+
+
+  /* header */
+  header {
+      position: relative;
+      height: 60rem;
+      background-image: url('./img/manhattan-407703_1280.jpg');
+      background-size: cover;
+      z-index: 0;
+  }
+
+  header .btn {
+      padding: 1rem 2 rem;
+      font-size: 1rem;
+      text-transform: uppercase;
+  }
+
+  .header-text {
+      font-size: 2.2rem;
   }

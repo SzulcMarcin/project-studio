@@ -21,54 +21,64 @@
 
     <nav class="navbar navbar-expand-lg navbar-light bg-light py-4 fixed-top">
         <div class="container">
-            <a class="navbar-brand" href="#"><i class="fas fa-camera-retro"></i></a>
-        <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <div id="hamburger" class="hamburglar is-open">
+            <a class="navbar-brand px-4" href="#"><i class="fas fa-camera-retro orange orange-color"></i>MX Studio</a>
+            <button class="navbar-toggler border-0" type="button" data-toggle="collapse"
+                data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <div id="hamburger" class="hamburglar is-open">
 
-                <div class="burger-icon">
-                    <div class="burger-container">
-                        <span class="burger-bun-top"></span>
-                        <span class="burger-filling"></span>
-                        <span class="burger-bun-bot"></span>
+                    <div class="burger-icon">
+                        <div class="burger-container">
+                            <span class="burger-bun-top"></span>
+                            <span class="burger-filling"></span>
+                            <span class="burger-bun-bot"></span>
+                        </div>
                     </div>
-                </div>
-
-                <!-- svg ring containter -->
-                <div class="burger-ring">
-                    <svg class="svg-ring">
-                        <path class="path" fill="none" stroke="#333" stroke-miterlimit="10" stroke-width="4"
-                            d="M 34 2 C 16.3 2 2 16.3 2 34 s 14.3 32 32 32 s 32 -14.3 32 -32 S 51.7 2 34 2" />
+                    <!-- svg ring containter -->
+                    <div class="burger-ring">
+                        <svg class="svg-ring">
+                            <path class="path" fill="none" stroke="#333" stroke-miterlimit="10" stroke-width="4"
+                                d="M 34 2 C 16.3 2 2 16.3 2 34 s 14.3 32 32 32 s 32 -14.3 32 -32 S 51.7 2 34 2" />
+                        </svg>
+                    </div>
+                    <!-- the masked path that animates the fill to the ring -->
+                    <svg width="0" height="0">
+                        <mask id="mask">
+                            <path xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#ff0000" stroke-miterlimit="10"
+                                stroke-width="4"
+                                d="M 34 2 c 11.6 0 21.8 6.2 27.4 15.5 c 2.9 4.8 5 16.5 -9.4 16.5 h -4" />
+                        </mask>
                     </svg>
-                </div>
-                <!-- the masked path that animates the fill to the ring -->
-
-                <svg width="0" height="0">
-                    <mask id="mask">
-                        <path xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#ff0000" stroke-miterlimit="10"
-                            stroke-width="4" d="M 34 2 c 11.6 0 21.8 6.2 27.4 15.5 c 2.9 4.8 5 16.5 -9.4 16.5 h -4" />
-                    </mask>
-                </svg>
-                <div class="path-burger">
-                    <div class="animate-path">
-                        <div class="path-rotation"></div>
+                    <div class="path-burger">
+                        <div class="animate-path">
+                            <div class="path-rotation"></div>
+                        </div>
                     </div>
-                </div>
 
+                </div>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ml-auto">
+                    <a class="nav-link active" href="#">Home</a>
+                    <a class="nav-link" href="#aboutus">o nas</a>
+                    <a class="nav-link" href="#team">zespół</a>
+                    <a class="nav-link" href="#contact">kontakt</a>
+                </div>
             </div>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-                <a class="nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-                <a class="nav-link" href="#">Features</a>
-                <a class="nav-link" href="#">Pricing</a>
-                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-            </div>
-        </div>
         </div>
     </nav>
+    <header id="home">
+        <div class="hero-shadow"></div>
+        <div class="container h-100 d-flex flex-column justify-content-center align-items-center text-light text center">
+            <p class="display-1">MX Studio</p>
+            <p class="header-text mb-5">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+            <a href="#aboutus" class="btn btn-outline-light">Poznaj nas!</a>
 
-    <div style="height: 200vh;"></div>
+        </div>
+
+
+    </header>
+    <div style="height: 1000vh;"></div>
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
