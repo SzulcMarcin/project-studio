@@ -136,10 +136,6 @@ button:focus {
   transform: scale(.5);
 }
 
-#hambureger button:focus {
-  outline: tomato;
-}
-
 .hamburglar {
   -webkit-transform: scale(1);
   transform: scale(1);
