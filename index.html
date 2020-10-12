@@ -2,184 +2,267 @@
 <html lang="pl">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>StudioMX</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="/style.css">
-    <script src="https://kit.fontawesome.com/54ce1bb86a.js" crossorigin="anonymous"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>StudioMX</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/style.css">
+  <script src="https://kit.fontawesome.com/54ce1bb86a.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light py-4 fixed-top">
-        <div class="container">
-            <a class="navbar-brand px-4" href="#"><i class="fas fa-camera-retro orange orange-color px-3"></i>MX Studio</a>
-            <button class="navbar-toggler border-0" type="button" data-toggle="collapse"
-                data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <div id="hamburger" class="hamburglar is-open">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light py-4 fixed-top">
+    <div class="container">
+      <a class="navbar-brand px-4" href="#"><i class="fas fa-camera-retro orange orange-color px-3"></i>MX Studio</a>
+      <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <div id="hamburger" class="hamburglar is-open">
 
-                    <div class="burger-icon">
-                        <div class="burger-container">
-                            <span class="burger-bun-top"></span>
-                            <span class="burger-filling"></span>
-                            <span class="burger-bun-bot"></span>
-                        </div>
-                    </div>
-                    <!-- svg ring containter -->
-                    <div class="burger-ring">
-                        <svg class="svg-ring">
-                            <path class="path" fill="none" stroke="#333" stroke-miterlimit="10" stroke-width="4"
-                                d="M 34 2 C 16.3 2 2 16.3 2 34 s 14.3 32 32 32 s 32 -14.3 32 -32 S 51.7 2 34 2" />
-                        </svg>
-                    </div>
-                    <!-- the masked path that animates the fill to the ring -->
-                    <svg width="0" height="0">
-                        <mask id="mask">
-                            <path xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#ff0000" stroke-miterlimit="10"
-                                stroke-width="4"
-                                d="M 34 2 c 11.6 0 21.8 6.2 27.4 15.5 c 2.9 4.8 5 16.5 -9.4 16.5 h -4" />
-                        </mask>
-                    </svg>
-                    <div class="path-burger">
-                        <div class="animate-path">
-                            <div class="path-rotation"></div>
-                        </div>
-                    </div>
-                </div>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav ml-auto">
-                    <a class="nav-link active" href="#">Home</a>
-                    <a class="nav-link" href="#aboutus">o nas</a>
-                    <a class="nav-link" href="#team">zespół</a>
-                    <a class="nav-link" href="#contact">kontakt</a>
-                </div>
+          <div class="burger-icon">
+            <div class="burger-container">
+              <span class="burger-bun-top"></span>
+              <span class="burger-filling"></span>
+              <span class="burger-bun-bot"></span>
             </div>
+          </div>
+          <!-- svg ring containter -->
+          <div class="burger-ring">
+            <svg class="svg-ring">
+              <path class="path" fill="none" stroke="#333" stroke-miterlimit="10" stroke-width="4"
+                d="M 34 2 C 16.3 2 2 16.3 2 34 s 14.3 32 32 32 s 32 -14.3 32 -32 S 51.7 2 34 2" />
+            </svg>
+          </div>
+          <!-- the masked path that animates the fill to the ring -->
+          <svg width="0" height="0">
+            <mask id="mask">
+              <path xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#ff0000" stroke-miterlimit="10"
+                stroke-width="4" d="M 34 2 c 11.6 0 21.8 6.2 27.4 15.5 c 2.9 4.8 5 16.5 -9.4 16.5 h -4" />
+            </mask>
+          </svg>
+          <div class="path-burger">
+            <div class="animate-path">
+              <div class="path-rotation"></div>
+            </div>
+          </div>
         </div>
-    </nav>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav ml-auto">
+          <a class="nav-link active" href="#">Home</a>
+          <a class="nav-link" href="#aboutus">o nas</a>
+          <a class="nav-link" href="#team">zespół</a>
+          <a class="nav-link" href="#contact">kontakt</a>
+        </div>
+      </div>
+    </div>
+  </nav>
 
-    <header id="home">
-        <div class="hero-shadow"></div>
-        <div
-            class="container h-100 d-flex flex-column justify-content-center align-items-center text-light text-center">
-            <p class="display-1">MX Studio</p>
-            <p class="header-text mb-5">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
-            <a href="#aboutus" class="btn btn-outline-light">Poznaj nas!</a>
+  <header id="home">
+    <div class="hero-shadow"></div>
+    <div class="container h-100 d-flex flex-column justify-content-center align-items-center text-light text-center">
+      <p class="display-1">MX Studio</p>
+      <p class="header-text mb-5">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+      <a href="#aboutus" class="btn btn-outline-light">Poznaj nas!</a>
+    </div>
+
+  </header>
+  <main>
+    <section id="aboutus">
+      <div class="container py-5 about-boxes">
+        <div class="row text-center">
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="about-box m-3 p-4 p-lg-5 border">
+              <h3 class="text-dark">Jakość</h3>
+              <p class="about-icon text-dark"><i class="fas fa-check"></i></p>
+              <p class="text-dark">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, ipsam.
+              </p>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="about-box m-3 p-4 p-lg-5 border bg-dark text-light">
+              <h3 class="text-light">Klienci</h3>
+              <p class="about-icon text-light"><i class="fas fa-user-friends"></i></p>
+              <p class="text-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime,
+                ipsam.</p>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="about-box m-3 p-4 p-lg-5 border">
+              <h3 class="text-dark">Sprzęt</h3>
+              <p class="about-icon text-dark"><i class="fas fa-server"></i></p>
+              <p class="text-dark">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, ipsam.
+              </p>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="about-box m-3 p-4 p-lg-5 border bg-dark text-light">
+              <h3 class="text-light">Ceny</h3>
+              <p class="about-icon text-light"><i class="fas fa-dollar-sign"></i></p>
+              <p class="text-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime,
+                ipsam.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container about-info py-5 text-center">
+        <div class="row">
+          <div class="col">
+            <p class="display-3 orange-color">Czym się wyróżniamy?</p>
+            <hr class="w-50 mx-auto mt-4 mb-5">
+            <div class="accordion" id="accordionExample">
+              <div class="card">
+                <div class="card-header" id="headingOne">
+                  <h2 class="mb-0">
+                    <button class="btn btn-link btn-block text-center text-decoration-none text-dark" type="button"
+                      data-toggle="collapse" data-target="#collapseOne" aria-expanded="true"
+                      aria-controls="collapseOne">
+                      Najlepsza jakość produktów
+                    </button>
+                  </h2>
+                </div>
+
+                <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
+                  data-parent="#accordionExample">
+                  <div class="card-body">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit natus perferendis doloribus a
+                    reiciendis officiis mollitia ipsum vel magni obcaecati adipisci expedita quis ut quo minima,
+                    molestiae, tenetur aspernatur praesentium!
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header" id="headingTwo">
+                  <h2 class="mb-0">
+                    <button class="btn btn-link btn-block text-center text-decoration-none text-dark collapsed"
+                      type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false"
+                      aria-controls="collapseTwo">
+                      Świetne relacje z klientami
+                    </button>
+                  </h2>
+                </div>
+                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                  <div class="card-body">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur delectus consectetur sunt at
+                    eligendi necessitatibus beatae explicabo maiores reiciendis, saepe non in sint vero dolore minima.
+                    Consectetur ad nulla eaque!
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header" id="headingThree">
+                  <h2 class="mb-0">
+                    <button class="btn btn-link btn-block text-center text-decoration-none text-dark collapsed"
+                      type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false"
+                      aria-controls="collapseThree">
+                      Zdobywcy wielu prestiżowych nagród
+                    </button>
+                  </h2>
+                </div>
+                <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                  <div class="card-body">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente perferendis iure similique placeat
+                    officiis. Totam, doloribus labore dolorum, necessitatibus asperiores harum optio, magni ut corrupti
+                    eos provident sed minus quibusdam?
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+ p-3
+    </section>
+    <section id="team">
+      <div class="container text-center">
+        <p class="display-3 orange-color">Zespół</p>
+        <hr class="w-50 mx-auto mt-4 mb-5">
+        <p class="my-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro quia tempore aliquid omnis
+          perspiciatis nemo facere adipisci? Illo optio aut nostrum! Illum, est. Quibusdam necessitatibus, cupiditate
+          error amet neque doloribus?</p>
+        <div class="row row-cols-1 row-cols-md-2">
+          <div class="col mb-4">
+            <div class="card">
+              <img src="/img/hunger-413685_1920.jpg" class="card-img-top" alt="Głodny sukcesu manager">
+              <div class="card-body">
+                <h3 class="card-title orange-color">Głodny sukcesu manager</h3>
+                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
+                  content. This content is a little bit longer.</p>
+              </div>
+              <div class="card-footer row justify-content-around mx-0 py3">
+                <a href="#"><i class="fab fa-facebook-f p-3"></i></a>
+                <a href="#"><i class="fab fa-twitter p-3"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in p-3"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col mb-4">
+            <div class="card">
+              <img src="/img/musician-664432_1920.jpg" class="card-img-top" alt="Artysta grafik">
+              <div class="card-body">
+                <h3 class="card-title orange-color">Artysta grafik</h3>
+                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
+                  content. This content is a little bit longer.</p>
+              </div>
+              <div class="card-footer row justify-content-around mx-0 py3">
+                <a href="#"><i class="fab fa-facebook-f p-3"></i></a>
+                <a href="#"><i class="fab fa-twitter p-3"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in p-3"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col mb-4">
+            <div class="card">
+              <img src="/img/woman-2593366_1920.jpg" class="card-img-top" alt="Kontroler jakości">
+              <div class="card-body">
+                <h3 class="card-title orange-color">Kontroler jakości</h3>
+                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
+                  content.</p>
+              </div>
+              <div class="card-footer row justify-content-around mx-0 py3">
+                <a href="#"><i class="fab fa-facebook-f p-3"></i></a>
+                <a href="#"><i class="fab fa-twitter p-3"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in p-3"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col mb-4">
+            <div class="card">
+              <img src="/img/night-1927265_1920.jpg" class="card-img-top" alt="Specjalistka od trudnych ujęć">
+              <div class="card-body">
+                <h3 class="card-title orange-color">Specjalistka od trudnych ujęć</h3>
+                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
+                  content. This content is a little bit longer.</p>
+              </div>
+              <div class="card-footer row justify-content-around mx-0 py3">
+                <a href="#"><i class="fab fa-facebook-f p-3"></i></a>
+                <a href="#"><i class="fab fa-twitter p-3"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in p-3"></i></a>
+              </div>
+            </div>
+          </div>
         </div>
 
-    </header>
-    <main>
-        <section id="aboutus">
-            <div class="container py-5 about-boxes">
-                <div class="row text-center">
-                    <div class="col-12 col-md-6 col-lg-3">
-                        <div class="about-box m-3 p-4 p-lg-5 border">
-                            <h3 class="text-dark">Jakość</h3>
-                            <p class="about-icon text-dark"><i class="fas fa-check"></i></p>
-                            <p class="text-dark">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, ipsam.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-6 col-lg-3">
-                        <div class="about-box m-3 p-4 p-lg-5 border bg-dark text-light">
-                            <h3 class="text-light">Klienci</h3>
-                            <p class="about-icon text-light"><i class="fas fa-user-friends"></i></p>
-                            <p class="text-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime,
-                                ipsam.</p>
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-6 col-lg-3">
-                        <div class="about-box m-3 p-4 p-lg-5 border">
-                            <h3 class="text-dark">Sprzęt</h3>
-                            <p class="about-icon text-dark"><i class="fas fa-server"></i></p>
-                            <p class="text-dark">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, ipsam.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-6 col-lg-3">
-                        <div class="about-box m-3 p-4 p-lg-5 border bg-dark text-light">
-                            <h3 class="text-light">Ceny</h3>
-                            <p class="about-icon text-light"><i class="fas fa-dollar-sign"></i></p>
-                            <p class="text-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime,
-                                ipsam.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="container about-info py-5 text-center">
-                <div class="row">
-                    <div class="col">
-                        <p class="display-3 orange-color">Czym się wyróżniamy?</p>
-                        <hr class="w-50 mx-auto mt-4 mb-5">
-                        <div class="accordion" id="accordionExample">
-                            <div class="card">
-                              <div class="card-header" id="headingOne">
-                                <h2 class="mb-0">
-                                  <button class="btn btn-link btn-block text-center text-decoration-none text-dark" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                    Najlepsza jakość produktów
-                                  </button>
-                                </h2>
-                              </div>
-                          
-                              <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
-                                <div class="card-body">
-                                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit natus perferendis doloribus a reiciendis officiis mollitia ipsum vel magni obcaecati adipisci expedita quis ut quo minima, molestiae, tenetur aspernatur praesentium!
-                                </div>
-                              </div>
-                            </div>
-                            <div class="card">
-                              <div class="card-header" id="headingTwo">
-                                <h2 class="mb-0">
-                                  <button class="btn btn-link btn-block text-center text-decoration-none text-dark collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                    Świetne relacje z klientami
-                                  </button>
-                                </h2>
-                              </div>
-                              <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
-                                <div class="card-body">
-                                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur delectus consectetur sunt at eligendi necessitatibus beatae explicabo maiores reiciendis, saepe non in sint vero dolore minima. Consectetur ad nulla eaque!
-                                </div>
-                              </div>
-                            </div>
-                            <div class="card">
-                              <div class="card-header" id="headingThree">
-                                <h2 class="mb-0">
-                                  <button class="btn btn-link btn-block text-center text-decoration-none text-dark collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                    Zdobywcy wielu prestiżowych nagród
-                                  </button>
-                                </h2>
-                              </div>
-                              <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
-                                <div class="card-body">
-                                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente perferendis iure similique placeat officiis. Totam, doloribus labore dolorum, necessitatibus asperiores harum optio, magni ut corrupti eos provident sed minus quibusdam?
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                    </div>
-                </div>
-            </div>
+      </div>
+    </section>
+
+  </main>
 
 
-        </section>
-    </main>
+  <div style="height: 1000vh;"></div>
 
-
-    <div style="height: 1000vh;"></div>
-
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
-    </script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
-    </script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
-        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
-    </script>
-    <script src="/script.js"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
+  </script>
+  <script src="/script.js"></script>
 
 
 </body>
