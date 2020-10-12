@@ -52,6 +52,7 @@ body{
   }
 
   header .btn {
+    margin-top: 50px;
       padding: 1rem 2 rem;
       font-size: 1rem;
       text-transform: uppercase;
@@ -89,10 +90,33 @@ body{
     object-fit: cover;
   }
 
+/* Kontakt */
+
+#contact h3 {
+  margin-bottom: 1.2rem;
+  font-weight: bold;
+  font-size: 2.2rem;
+  text-transform: uppercase;
+}
+
+#contact .contact-info .fas{
+  margin-right: 0.5rem;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+#contact .submit-btn {
+  font-size: 1.6rem;
+}
+
+#contact .input-group-lg>.custom-select, #contact .input-group-lg>.form-control:not(textarea) {
+  height: calc(1.5rem + 2rem + 2px);
+}
 
 
 
-  
+
+
 /* button */
 button:focus {
   outline: #fff;
