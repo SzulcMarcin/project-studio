@@ -710,3 +710,7 @@ button:focus {
   .about-icon {
       font-size: 3rem;
   }
+
+  #aboutus .btn-link {
+    font-size: 1.8rem;
+  }

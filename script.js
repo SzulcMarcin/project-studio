@@ -1,3 +1,5 @@
+// button
+
 $('document').ready(function () {
     var trigger = $('#hamburger'),
         isClosed = true;
