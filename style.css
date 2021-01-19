@@ -55,7 +55,7 @@ nav .fa-bars {
 header {
   position: relative;
   height: 60rem;
-  background-image: url('./img/manhattan-407703_1280.jpg');
+  background-image: url('..//img/manhattan-407703_1280.jpg');
   background-size: cover;
   z-index: 0;
 }
